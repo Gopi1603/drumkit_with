@@ -1,0 +1,60 @@
+body {
+  font-family: 'Arvo', serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ff6f61;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 180px); /* Adjusted height */
+}
+
+.set {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center; /* Center the buttons */
+  max-width: 800px; /* Added max-width to limit width of buttons */
+  margin: 0 auto; /* Center the buttons */
+}
+
+.drum {
+  border: none;
+  outline: none;
+  background-color: #2d3142;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 20px 40px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  border-radius: 10px;
+}
+
+.drum:hover {
+  background-color: #4f5d75;
+}
+
+.drum:active {
+  transform: scale(0.95);
+}
+
+footer {
+  background-color: #ff6f61;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
